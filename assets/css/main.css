@@ -1,11 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -84,7 +80,7 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -2593,7 +2589,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 			h2 {
@@ -2625,6 +2621,14 @@ input, select, textarea {
 
 				#main section.cover header {
 					padding: 0 1em;
+				}
+				@media screen and (max-width: 736px) {
+					video {
+						width: 100% !important;
+						height: auto !important;
+						max-width: 100%;
+						border-radius: 10px; /* Optional: Adds rounded corners */
+					}
 				}
 
 		/* Footer */
