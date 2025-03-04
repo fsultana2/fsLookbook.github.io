@@ -1838,7 +1838,7 @@ input, select, textarea {
 			border: 0;
 		}
 
-/* Form */
+/* Form 
 
 	form label {
 		display: block;
@@ -1907,7 +1907,7 @@ input, select, textarea {
 
 	form ::-moz-focus-inner {
 		border: 0;
-	}
+	}*/
 
 /* Table 
 
@@ -2581,6 +2581,20 @@ input, select, textarea {
 				}
 
 	}
+/* Ensure video is responsive */
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+/* Fix container spacing */
+#video-section {
+    text-align: center;
+    padding: 20px;
+}
+
 
 /* Mobile */
 
